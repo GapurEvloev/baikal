@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>Baikal</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">  
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,400i,500,700,700i,900" rel="stylesheet">
+	
+	<link rel="stylesheet" href="css/jquery-ui.css">
+	<link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+
+	<!-- start header -->
+	<header class="dark">
+		<div id="top">
+			<div class="wrap main_flex__nowrap flex__align-items_center flex__jcontent_between">
+				<div class="main_flex__nowrap flex__align-items_center">
+					<div id="sign" class="btn anime main_flex__nowrap flex__align-items_center flex__jcontent_between">
+						<svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M16 14.2851C16 13.2047 14.3708 12.6045 13.5477 12.2787C13.0504 12.0729 12.5359 11.8671 12.0386 11.6442C11.3698 11.3355 10.6838 10.9753 10.1865 10.4094C10.015 10.2036 9.91211 10.0665 9.91211 9.79207C9.91211 9.39764 10.015 9.00321 10.1007 8.62594C10.2379 8.04287 10.5295 7.5627 10.7696 7.01393C11.0439 6.32797 11.1468 5.60772 11.284 4.90461C11.3355 4.59593 11.4212 4.30439 11.4212 3.99571C11.4212 1.86924 10.3065 0 7.99143 0C5.67631 0 4.56163 1.86924 4.56163 3.99571C4.56163 4.30439 4.66452 4.59593 4.71597 4.90461C4.87031 5.60772 4.95606 6.32797 5.24759 7.01393C5.48767 7.5627 5.79636 8.04287 5.9164 8.62594C6.01929 9.00321 6.10504 9.39764 6.10504 9.79207C6.10504 10.0665 6.00214 10.2036 5.83065 10.4094C5.33333 10.9753 4.64737 11.3355 3.97856 11.6442C3.48124 11.8842 2.96677 12.0729 2.46945 12.2787C1.6463 12.6217 0 13.2047 0 14.2851V16H16V15.0054V14.2851Z"/>
+						</svg>
+						Sign In
+					</div>
+					<div id="location">
+						Location: <span>Russia</span>
+					</div>
+				</div>
+				<div id="logo">
+					<a href="#">Baikal</a>
+				</div>
+				<div class="main_flex__nowrap flex__align-items_center">
+					<div id="currency">
+						Currency:<span> US DOLLAR</span>
+					</div>
+					<div id="cart" class="btn main_flex__nowrap flex__align-items_center flex__jcontent_between">
+						<svg viewBox="0 0 16 15" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M14.8 4.26199C14.6 3.96199 14.2 3.76199 13.8 3.76199H4.5L4.1 1.76199C4 1.16199 3.3 0.661987 2.7 0.661987H0V2.26199H2.6L4.1 9.46199C4.2 10.062 4.9 10.562 5.5 10.562H11.8C12.4 10.562 13.1 10.162 13.3 9.56199L14.9 5.36199C15.1 4.96199 15 4.56199 14.8 4.26199ZM11.9 9.06199H5.7L4.9 5.46199H13.2L11.9 9.06199ZM6.1 11.562C5.2 11.562 4.5 12.262 4.5 13.162C4.5 14.062 5.2 14.762 6.1 14.762C7 14.762 7.7 14.062 7.7 13.162C7.7 12.262 7 11.562 6.1 11.562ZM11.7 11.562C10.8 11.562 10.1 12.262 10.1 13.162C10.1 14.062 10.8 14.762 11.7 14.762C12.6 14.762 13.3 14.062 13.3 13.162C13.3 12.262 12.6 11.562 11.7 11.562Z" />
+						</svg>
+						Cart
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="menu">
+				<div class="wrap main_flex__nowrap flex__align-items_center flex__jcontent_center">
+					<nav id="main_nav" class="main_flex__nowrap flex__align-items_center flex__jcontent_center">
+						<li><a href="#">MENS</a></li>
+						<li><a href="#">WOMENS</a></li>
+						<li><a href="#">GOODS</a></li>
+						<li><a href="#">ACCESSORIES</a></li>
+						<li><a href="#">BRANDS</a></li>
+						<li><a href="#">BLOG</a></li>
+					</nav>
+					<div id="search">
+						<svg viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M12.939 7.771C12.939 10.621 10.621 12.939 7.771 12.939C4.921 12.939 2.584 10.621 2.584 7.771C2.584 4.902 4.902 2.584 7.771 2.584C10.621 2.584 12.939 4.921 12.939 7.771ZM14.174 12.16C15.067 10.887 15.542 9.329 15.542 7.771C15.542 3.477 12.065 0 7.771 0C3.477 0 0 3.477 0 7.771C0 12.065 3.477 15.542 7.771 15.542C9.329 15.542 10.887 15.048 12.179 14.174L17.005 19L19 17.005L14.174 12.16Z" fill="#3C3D41"/>
+						</svg>
+					</div>
+				</div>
+		</div>
+	</header>
+	<!-- end header -->
+
+
+	<!-- start banner -->
+	<div id="banner">
+		<img src="img/banner.png">
+	</div>
+	<!-- end banner -->
+
+
+	<!-- main start -->
+	
+	<main class="wrap main_flex__nowrap flex__jcontent_between flex__align-items_start">
+		
+		<div id="left-bar">
+			<!-- categoryes -->
+			<div id="categorys" class="category box">
+
+				<div class="category__box">
+					<div class="category__title">
+						<p>Woman</p>
+						<svg viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M1.90132 0.0894775L0.5 1.31362L3.67763 4.08948L0.5 6.86534L1.90132 8.08948L6.5 4.08948L1.90132 0.0894775Z"/>
+						</svg>
+					</div>
+					<div class="category__list">
+						<nav>
+							<li><a href="#">Jackets</a></li>
+							<li><a href="#">Blazers</a></li>
+							<li><a href="#">Suits</a></li>
+							<li><a href="#">Trousers</a></li>
+							<li><a href="#">Jeans</a></li>
+							<li><a href="#">Shirts</a></li>
+						</nav>
+					</div>
+				</div>
+
+				<div class="category__box">
+					<div class="category__title">
+						<p>Man</p>
+						<svg viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M1.90132 0.0894775L0.5 1.31362L3.67763 4.08948L0.5 6.86534L1.90132 8.08948L6.5 4.08948L1.90132 0.0894775Z"/>
+						</svg>
+					</div>
+					<div class="category__list">
+						<nav>
+							<li><a href="#">Jackets</a></li>
+							<li><a href="#">Blazers</a></li>
+							<li><a href="#">Suits</a></li>
+							<li><a href="#">Trousers</a></li>
+							<li><a href="#">Jeans</a></li>
+							<li><a href="#">Shirts</a></li>
+						</nav>
+					</div>
+				</div>
+
+				<div class="category__box">
+					<div class="category__title">
+						<p>Kids</p>
+						<svg viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M1.90132 0.0894775L0.5 1.31362L3.67763 4.08948L0.5 6.86534L1.90132 8.08948L6.5 4.08948L1.90132 0.0894775Z"/>
+						</svg>
+					</div>
+					<div class="category__list">
+						<nav>
+							<li><a href="#">Jackets</a></li>
+							<li><a href="#">Blazers</a></li>
+							<li><a href="#">Suits</a></li>
+							<li><a href="#">Trousers</a></li>
+							<li><a href="#">Jeans</a></li>
+							<li><a href="#">Shirts</a></li>
+						</nav>
+					</div>
+				</div>
+
+				<div class="category__box">
+					<div class="category__title">
+						<p>SHOES&amp;BAGS</p>
+						<svg viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M1.90132 0.0894775L0.5 1.31362L3.67763 4.08948L0.5 6.86534L1.90132 8.08948L6.5 4.08948L1.90132 0.0894775Z"/>
+						</svg>
+					</div>
+					<div class="category__list">
+						<nav>
+							<li><a href="#">Jackets</a></li>
+							<li><a href="#">Blazers</a></li>
+							<li><a href="#">Suits</a></li>
+							<li><a href="#">Trousers</a></li>
+							<li><a href="#">Jeans</a></li>
+							<li><a href="#">Shirts</a></li>
+						</nav>
+					</div>
+				</div>
+
+				
+
+			</div>
+			<!-- categoryes end -->
+			
+			<!-- filter box -->
+			<div id="categorys" class="category filter box">
+				<div class="category__box">
+					<div class="category__title">Colors</div>
+					<div class="category__checks">
+						<ul class="category__checks-list main_flex flex__jcontent_start flex__align-items_start">
+							<li><input id="blue" type="checkbox"><label style="background-color: #1476F1;" for="blue"></label></li>
+							<li><input id="green" type="checkbox"><label style="background-color: #82D889;" for="green"></label></li>
+							<li><input id="black" type="checkbox"><label style="background-color: #3C3D41;" for="black"></label></li>
+							<li><input id="silver-gray" type="checkbox"><label style="background-color: #838D8F;" for="silver-gray"></label></li>
+							<li><input id="blue-gray" type="checkbox"><label style="background-color: #B8C6C7;" for="blue-gray"></label></li>
+							<li><input id="gold" type="checkbox"><label style="background-color: #CE954A;" for="gold"></label></li>
+							<li><input id="purple" type="checkbox"><label style="background-color: #7B7F91;" for="purple"></label></li>
+							<li><input id="gray" type="checkbox"><label style="background-color: #777777;" for="gray"></label></li>
+							<li><input id="light-gray" type="checkbox"><label style="background-color: #BDBDBD;" for="light-gray"></label></li>
+							<li><input id="silver" type="checkbox"><label style="background-color: #EEEEEE;" for="silver"></label></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- filter box end -->
+
+			<!-- size box -->
+			<div id="categorys" class="category size box">
+				<div class="category__box">
+					<div class="category__title">Size</div>
+					<div class="category__checks">
+						<ul class="category__checks-list main_flex flex__jcontent_start flex__align-items_start">
+							<li><input id="size1" type="checkbox"><label for="size1">xs</label></li>
+							<li><input id="size2" type="checkbox"><label for="size2">s</label></li>
+							<li><input id="size3" type="checkbox"><label for="size3">m</label></li>
+							<li><input id="size4" type="checkbox"><label for="size4">l</label></li>
+							<li><input id="size5" type="checkbox"><label for="size5">xl</label></li>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- size box end -->
+
+			<!-- price range box -->
+			<div id="categorys" class="category price-range box">
+				<div class="category__box">
+					<div class="category__title">price range</div>
+					<div class="category__checks">
+						<div id="slider_price"></div>
+						<div class="price_box main_flex__nowrap flex__jcontent_between flex__align-items_center">
+							<input type="text" name="minPrice" value="">
+							<input type="text" name="maxPrice" value="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- price range box end -->
+			
+		</div>
+
+		<div id="right-bar">
+			<div class="list-product main_flex flex__align-items_start flex__jcontent_start">
+				<a href="#" class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+					<span class="tag">new</span>
+					<span class="product__img">
+						<img src="img/products/01.png">
+					</span>
+					<h2>Our Legacy Splash Jacquard Knit</h2>
+					<p class="color">Black Grey Plants</p>
+					<p class="price">&#36;290</p>
+				</a>
+				<a href="#" class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+					<span class="product__img">
+						<img src="img/products/02.png">
+					</span>
+					<h2>Our Legacy Splash Jacquard Knit</h2>
+					<p class="color">Black Grey Plants</p>
+					<p class="price">&#36;290</p>
+				</a>
+				<a href="#" class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+					<span class="product__img">
+						<img src="img/products/03.png">
+					</span>
+					<h2>Our Legacy Splash Jacquard Knit</h2>
+					<p class="color">Black Grey Plants</p>
+					<p class="price">&#36;290</p>
+				</a>
+				<a href="#" class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+					<span class="product__img">
+						<img src="img/products/04.png">
+					</span>
+					<h2>Our Legacy Splash Jacquard Knit</h2>
+					<p class="color">Black Grey Plants</p>
+					<p class="price">&#36;290</p>
+				</a>
+				<a href="#" class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+					<span class="product__img">
+						<img src="img/products/05.png">
+					</span>
+					<h2>Our Legacy Splash Jacquard Knit</h2>
+					<p class="color">Black Grey Plants</p>
+					<p class="price">&#36;290</p>
+				</a>
+				<a href="#" class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+					<span class="product__img">
+						<img src="img/products/06.png">
+					</span>
+					<h2>Our Legacy Splash Jacquard Knit</h2>
+					<p class="color">Black Grey Plants</p>
+					<p class="price">&#36;290</p>
+				</a>
+				<a href="#" class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+					<span class="product__img">
+						<img src="img/products/07.png">
+					</span>
+					<h2>Our Legacy Splash Jacquard Knit</h2>
+					<p class="color">Black Grey Plants</p>
+					<p class="price">&#36;290</p>
+				</a>
+				<a href="#" class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+					<span class="product__img">
+						<img src="img/products/08.png">
+					</span>
+					<h2>Our Legacy Splash Jacquard Knit</h2>
+					<p class="color">Black Grey Plants</p>
+					<p class="price">&#36;290</p>
+				</a>
+				<a href="#" class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+					<span class="tag">new</span>
+					<span class="product__img">
+						<img src="img/products/09.png">
+					</span>
+					<h2>Our Legacy Splash Jacquard Knit</h2>
+					<p class="color">Black Grey Plants</p>
+					<p class="price">&#36;290</p>
+				</a>
+			</div>
+			<button id="load_more" type="button">Load More</button>
+		</div>
+		
+	</main>
+	<!-- main end -->
+	
+
+	<!-- footer -->
+	<footer>
+		<div class="wrap">
+			<nav id="footer_nav">
+				<li><a href="#">LEGAL INFORMATION</a></li>
+				<li><a href="#">TERMS</a></li>
+				<li><a href="#">DATA PRIVACY</a></li>
+				<li><a href="#">SIZING</a></li>
+				<li><a href="#">SHIPPING</a></li>
+				<li><a href="#">CONTACT</a></li>
+			</nav>
+			<div id="newsletter">
+				<p>newsletter</p>
+				<input type="text" name="email" placeholder="E-mail">
+				<button><svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M18 11.8083C18 12.4583 17.4602 13 16.8581 13H1.14187C0.539792 13 0 12.4583 0 11.8083V1.235C0 0.606667 0.49827 0.0866667 1.10035 0.065L1.12111 0H16.8374L16.8581 0.065H17.128H16.8581C17.481 0.065 18 0.585 18 1.235V11.8083ZM16.609 10.1183V2.88167L12.0623 6.5L16.609 10.1183ZM16.609 1.45167H1.391C3.92388 3.445 6.45675 5.43833 8.98962 7.45333C11.5225 5.43833 14.0554 3.445 16.609 1.45167ZM16.609 11.5483L11.128 7.23667L9.67474 8.40667H8.28374L6.85121 7.25833L1.391 11.5483H16.609ZM5.91695 6.5L1.391 2.88167V10.1183L5.91695 6.5Z" fill="#3C3D41"/>
+				</svg></button>
+			</div>
+			<div id="soc_list">
+				<li><a href="#" target="_blank"><svg width="8" height="16" viewBox="0 0 8 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.55457 2.82979C7.11789 2.70213 6.61571 2.61702 6.1572 2.61702C5.58951 2.61702 4.36681 2.97872 4.36681 3.68085V5.3617H7.27073V8.19149H4.36681V16H1.44105V8.19149H0V5.3617H1.44105V3.93617C1.44105 1.78723 2.44541 0 4.86899 0C5.69868 0 7.1834 0.0425532 7.99126 0.319149L7.55457 2.82979Z" fill="#838D8F"/></svg></a></li>
+				<li><a href="#" target="_blank"><svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M13.5197 1.87612C13.5197 1.87612 13.5197 1.74211 13.5197 1.87612C12.8504 1.20608 12.0472 0.938061 11.2441 1.07207C12.0472 0.938061 12.4488 0.670044 12.5827 0.536035C12.5827 0.402026 12.5827 0.268017 12.4488 0.268017C12.0472 0.268017 11.6457 0.402026 11.378 0.536035C11.7795 0.268017 11.9134 0.134009 11.9134 0C11.5118 0 11.1102 0.268017 10.5748 0.670044C10.7087 0.402026 10.8425 0.268017 10.7087 0.134009C10.4409 0.268017 10.3071 0.402026 10.1732 0.670044C9.77165 1.07207 9.50394 1.34009 9.37008 1.74211C8.83465 2.68017 8.43307 3.48423 8.16535 4.42229H8.0315C7.76378 4.02026 7.3622 3.61824 6.82677 3.35022C6.29134 2.94819 5.62205 2.68017 4.8189 2.27815C4.01575 1.87612 3.2126 1.4741 2.27559 1.20608C2.27559 2.14414 2.67717 2.94819 3.61417 3.48423C3.34646 3.48423 2.94488 3.48423 2.67717 3.61824C2.67717 4.42229 3.34646 5.09233 4.55118 5.36035C4.14961 5.36035 3.74803 5.49436 3.34646 5.76238C3.74803 6.56643 4.41732 6.83445 5.48819 6.83445C5.35433 6.96845 5.08661 7.10246 5.08661 7.10246C4.95276 7.23647 4.8189 7.50449 4.95276 7.77251C5.22047 8.17453 5.48819 8.30854 6.15748 8.30854C5.22047 9.2466 4.01575 9.78264 2.67717 9.64863C1.87402 9.64863 0.937008 9.2466 0 8.44255C0.937008 9.78264 2.27559 10.8547 3.88189 11.5248C5.75591 12.0608 7.62992 12.1948 9.37008 11.6588C11.1102 11.1227 12.7165 10.0507 13.9213 8.57656C14.4567 7.77251 14.8583 6.96845 14.9921 6.1644C15.9291 6.1644 16.5984 5.89638 17 5.36035C16.7323 5.49436 16.063 5.49436 15.126 5.22634C16.063 5.09233 16.7323 4.82431 16.8661 4.28828C16.1969 4.5563 15.5276 4.5563 14.8583 4.28828C14.7244 3.35022 14.3228 2.54617 13.5197 1.87612Z" fill="#838D8F"/></svg></a></li>
+				<li><a href="#" target="_blank"><svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M14.6756 0H2.31561C1.59561 0 0.995605 0.6 0.995605 1.32V4.995H5.99061C6.74061 4.455 7.53561 3.99 8.49561 3.99C9.42561 3.99 10.2656 4.455 11.0006 4.995H15.9956V1.32C15.9956 0.6 15.3956 0 14.6756 0ZM14.9906 3.48C14.9906 3.765 14.7656 4.005 14.4806 4.005H12.5156C12.2306 4.005 11.9906 3.765 11.9906 3.48V1.515C11.9906 1.23 12.2306 1.005 12.5156 1.005H14.4806C14.7656 1.005 14.9906 1.23 14.9906 1.515V3.48ZM11.0006 7.995C11.0006 6.615 9.87561 5.505 8.49561 5.505C7.11561 5.505 5.99061 6.615 5.99061 7.995C5.99061 9.375 7.11561 10.5 8.49561 10.5C9.87561 10.5 11.0006 9.375 11.0006 7.995ZM12.3206 7.005C12.4106 7.305 12.4406 7.62 12.4406 7.935C12.4406 10.125 10.6706 11.895 8.49561 11.895C6.32061 11.895 4.55061 10.125 4.55061 7.935C4.55061 7.62 4.58061 7.305 4.67061 7.005H0.995605V13.68C0.995605 14.4 1.59561 15 2.31561 15H14.6756C15.3956 15 15.9956 14.4 15.9956 13.68V7.005H12.3206Z" fill="#838D8F"/></svg></a></li>	
+			</div>
+		</div>
+	</footer>
+	<!-- footer end -->
+	
+	
+	<script src="js/scripts.min.js"></script>
+</body>
+</html>

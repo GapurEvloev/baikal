@@ -1,0 +1,117 @@
+#top
+	width: 100%
+	height: 9.16vmax
+	
+
+#top,
+#menu
+	.wrap
+		height: inherit
+div.btn
+	border-radius: 0.33vw
+	padding: 0.66vw 1.32vw
+	overflow: hidden
+	cursor: pointer
+
+#sign
+	border: 1px solid #ededed
+	color: #fff
+	font-size: 0.83vmax
+	transition: 200ms all linear
+	font-weight: 500
+	text-transform: uppercase
+	svg
+		width: 1.33vmax
+		height: 1.33vmax
+		fill: #7e7e7e
+		margin-right: 1.83vmax
+	&:hover
+		background-color: #ededed
+		color: #2E2E30
+
+#location,
+#currency
+	font-family: 'PT Serif', serif
+	margin-left: 5.25vmax
+	color: #AAAAAA
+	span
+		font-family: $default-font
+		font-weight: 500
+		color: #fff
+		text-transform: uppercase
+		font-size: .83vmax
+		cursor: pointer
+		margin-left: 1.66vmax
+#currency
+	margin-left: 0
+	margin-right: 6.33vmax
+#logo
+	font-family: $default-font
+	font-weight: bold
+	font-size: 4.66vmax
+	letter-spacing: -0.2vmax
+	a	
+		color: #fff
+		text-decoration: none
+
+#cart
+	border: 1px solid #8AD592
+	box-sizing: border-box
+	color: #8AD592
+	font-size: 0.83vmax
+	transition: 200ms all linear
+	font-weight: 500
+	text-transform: uppercase
+	font-family: $default-font
+	svg
+		width: 1.25vmax
+		height: 1.16vmax
+		margin-right: 1.5vmax
+		fill: #8AD592
+	&:hover
+		background-color: #8AD592
+		color: #fff
+		svg
+			fill: #fff
+
+#menu
+	background-color: #fff
+	width: 100%
+	height: 4.16vmax	
+	.wrap
+		#main_nav,
+		#main_nav li,
+		#main_nav a
+			height: inherit
+			display: -webkit-flex
+			display: -moz-flex
+			display: -ms-flex
+			display: -o-flex
+			display: flex
+			flex-flow: row nowrap
+			align-items: center
+			justify-content: center
+
+		#main_nav
+			li
+				list-style: none
+				a
+					font-size: 1.083vmax
+					letter-spacing: 0.083vmax
+					font-weight: bold
+					color: #3C3D41
+					text-decoration: none
+					font-family: $default-font
+					text-transform: uppercase
+					padding: 0 1.5vmax
+					transition: 200ms all linear
+					&:hover
+						background-color: #3C3D41
+						color: #fff	
+		#search
+			position: absolute
+			cursor: pointer
+			right: 0
+			width: 1.5vmax
+			height: 1.5vmax
+			top: calc(50% - 0.5vmax)

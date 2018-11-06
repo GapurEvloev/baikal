@@ -1,0 +1,220 @@
+main
+	padding: 4.16vmax	0 6.66vmax 0
+
+#left-bar
+	width: 19.16vw
+	background: #eaeaea
+	#categorys
+		border-radius: .33vmax
+	.category
+		margin-bottom: 1.75vmax
+		border-radius: .33vmax
+		&__box
+			width: 100%
+			background-color: #fff
+			// &:last-child
+			// 	padding-bottom: 1.66vmax
+		&__title.open
+			svg
+				fill: #838d8f
+				transform: rotate(90deg)	
+		&__title
+			position: relative
+			height: 4.16vmax
+			width: 100%
+			display: -webkit-flex
+			display: -moz-flex
+			display: -ms-flex
+			display: -o-flex
+			display: flex
+			justify-content: space-between
+			flex-wrap: nowrap
+			align-items: center
+			border-bottom: 1px solid #eee
+			cursor: pointer
+			p
+				margin: 0
+				font-size: .916vmax
+				font-weight: bold
+				text-transform: uppercase
+				color: #3C3D41
+				letter-spacing: .1vmax
+			svg
+				width: .5vmax
+				height: .66vmax
+				fill: #ccc
+				transition: 200ms all linear
+				// position: absolute
+				// right: 0
+				// top: 0	
+		&__list
+			background-color: #838d8f
+			height: 0
+			overflow: hidden
+			a
+				text-decoration: none
+				color: #DADDDE
+				font-size: 1.083vmax
+				padding: 0.6vmax 0
+				display: block
+				transition: 100ms all linear
+				&:hover
+					color: #fff
+			li
+				list-style-type: none
+		&__list.open
+			height: auto
+			overflow: auto
+			padding: .8vmax 1.66vmax
+	.category
+		&__title
+			text-transform: uppercase	
+			font-size: .916vmax	
+			letter-spacing: .16vmax
+			font-weight: bold	
+			padding: 0 1.66vmax
+		&__checks
+			padding: 0 1.66vmax
+			&-list
+				padding: 1.66vmax 0 .83vmax
+				margin: 0
+				li
+					padding: 0
+					margin: 0
+					margin-right: .63vw
+					margin-bottom: .83vmax	
+					list-style-type: none
+					&:nth-of-type(5n)
+						margin-right: 0
+				label
+					cursor: pointer	
+					display: -webkit-flex
+					display: -moz-flex
+					display: -ms-flex
+					display: -o-flex
+					display: flex
+					flex-flow: row wrap
+					justify-content: center
+					align-items: center
+					width: 2.66vmax
+					height: 2.66vmax
+					border-radius: 2.66vmax
+					margin: 0
+					background-color: #eee	
+					color: #3C3D41
+					font-size: .916vmax
+					text-transform: uppercase	
+				input[type="checkbox"]
+					display: none
+					&:checked + label
+						box-shadow: 0 0 2px 3px #adadab
+	.size
+		input[type="checkbox"]
+			display: none
+			&:checked + label
+				box-shadow: none
+				background: #838D8F
+				color: #fff	
+	.price-range
+		.category
+			&__checks
+				#slider_price
+					height: 4px
+					border: none
+					background-color: #eee
+					margin: 2.9vmax 0 1vmax 
+					.ui-slider-range
+						background-color: #838D8F
+					.ui-slider-handle
+						transform: translateY(-15%)
+						border-radius: 50%
+						border: 3px solid #838D8F
+						background-color: #fff
+						outline: none
+				.price_box
+					input
+						width: 30%
+						border: none
+						font-size: 1.08vmax
+						color: #878787
+						text-align: center
+
+
+#right-bar
+	width: 60.83vw
+	.list-product
+		.product
+			flex-flow: column nowrap
+			text-decoration: none
+			padding: 1.66vmax 1.66vw
+			width: 19.16vw	
+			height: 25vmax
+			margin-bottom: 1.66vmax
+			margin-right: 1.66vw
+			transition: 200ms all linear
+			position: relative
+			&:hover
+				transform: scale(1.03)
+			&:nth-of-type(3n)
+				margin-right: 0 	
+			.tag
+				border-radius: .33vw
+				width: 3.25vw
+				height: 1.21vmax
+				color: #fff
+				background-color: #84ce8b
+				padding: .1vmax .5vw
+				line-height: normal	
+				font-size: .83vmax
+				text-transform: uppercase
+				position: absolute
+				top: 2vmax
+				right: 1.5vw
+			&__img
+				width: 100%
+				height: 13.33vmax
+				overflow: hidden
+				text-align: center
+				margin-bottom: 1.58vmax
+				img
+					height: 100%
+					width: auto
+			h2
+				font-size: 1.25vmax
+				color: #393D3F
+				font-weight: bold
+				text-align: center
+				line-height: 1.5vmax
+				margin-bottom: .3vmax
+			.color
+				font-family: "PT Serif"
+				font-style: italic;
+				font-weight: normal;
+				line-height: normal;
+				font-size: 1vmax;
+				text-align: center;
+				color: #838C8C;	
+				margin-bottom: .42vmax
+			.price
+				font-size: 1.083vmax
+				color: #1E1F1E
+				margin-bottom: 0
+
+	.box
+		border-radius: .33vw
+		background-color: #fff
+	#load_more
+		width: 100%
+		border: none
+		overflow: hidden
+		outline: none
+		border-radius: .33vw
+		background: #B8C6C7
+		color: #fff
+		font-size: 1.25vmax
+		padding: 1.16vmax 0
+		font-weight: bold
+		margin-top: 3.33vmax
+		transition: 200ms all linear
+		&:hover
+			transform: scale(.98) 
